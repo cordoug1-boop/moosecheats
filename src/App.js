@@ -22,15 +22,23 @@ function App() {
         }}>
           <h2>Product Name</h2>
           <p>$29.99</p>
-          <button style={{
-            padding: "10px 20px",
-            background: "red",
-            border: "none",
-            color: "white",
-            cursor: "pointer"
-          }}>
+          <a
+            href="https://pay.skrill.com?pay_to_email=YOUR_EMAIL&amount=10&currency=USD&detail1_description=Product&detail1_text=Moose+Cheats+Package"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              padding: "10px 20px",
+              background: "red",
+              border: "none",
+              color: "white",
+              cursor: "pointer",
+              display: "inline-block",
+              textDecoration: "none",
+              borderRadius: "4px"
+            }}
+          >
             Buy Now
-          </button>
+          </a>
         </div>
       </div>
     </div>
