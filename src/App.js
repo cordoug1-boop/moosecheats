@@ -23,7 +23,7 @@ function App() {
           <h2>Product Name</h2>
           <p>$29.99</p>
           <a
-            href="https://pay.skrill.com?pay_to_email=YOUR_EMAIL&amount=10&currency=USD&detail1_description=Product&detail1_text=Moose+Cheats+Package"
+            href="https://pay.skrill.com?pay_to_email=GOOSECHEATS@GMAIL.COM&amount=10&currency=USD&detail1_description=Product&detail1_text=Moose+Cheats+Package&return_url=https://moosecheats-3.onrender.com/success"
             target="_blank"
             rel="noopener noreferrer"
             style={{
