@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ProductGrid from "./sections/Products/ProductGrid";
-import Success from "./pages/Success";
-import Cancel from "./pages/Cancel";
+import ProductGrid from "./ProductGrid";
+import Success from "./Success";
+import Cancel from "./Cancel";
 
 function App() {
   return (
