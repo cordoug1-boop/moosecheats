@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-export default function App() {
+function App() {
   return (
-    <div style={{fontFamily: 'Arial, sans-serif', padding: 24}}>
-      <h1>moosecheats</h1>
-      <p>Minimal React app for build & serve.</p>
+    <div className="App">
+      <h1>Moose Cheats</h1>
+      <p>Welcome to the product page!</p>
     </div>
-  )
+  );
 }
+
+export default App;
