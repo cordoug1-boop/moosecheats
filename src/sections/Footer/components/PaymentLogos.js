@@ -19,7 +19,7 @@ export const PaymentLogos = () => {
         </li>
         <li className="text-white box-border caret-transparent flex items-center">
           <a
-            href="https://account.skrill.com/wallet/account/send-money?recipient=YOUR_SKRILL_EMAIL"
+            href="https://account.skrill.com/wallet/account/send-money?recipient=GOOSECHEATS@GMAIL.COM"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-x-2 text-white font-bold text-lg hover:opacity-80 transition-opacity"
