@@ -1,23 +1,6 @@
 import React, { useState } from 'react';
 
-interface PricingOption {
-  duration: string;
-  price: string;
-  priceValue: number;
-  popular?: boolean;
-}
-
-interface Product {
-  id: string;
-  name: string;
-  image: string;
-  description: string;
-  price: string;
-  features: string[];
-  pricingOptions?: PricingOption[];
-}
-
-const products: Product[] = [
+const products = [
   {
     id: 'torix-vpn',
     name: 'Torix VPN – Fast & Secure',
@@ -125,8 +108,8 @@ const PaymentMethodSelector: React.FC<{
   );
 };
 
-export const ProductGrid = () => {
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+const ProductGrid = () => {
+  const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedPricing, setSelectedPricing] = useState<PricingOption | null>(null);
   const [showPayment, setShowPayment] = useState(false);
 
@@ -187,3 +170,5 @@ export const ProductGrid = () => {
     </div>
   );
 };
+
+export default ProductGrid;
